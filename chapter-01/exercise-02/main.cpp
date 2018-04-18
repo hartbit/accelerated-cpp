@@ -1,5 +1,8 @@
 #include <iostream>
+#include <string>
 
-int main() {
-    std::cout << "This (\") is a quote, and this (\\) is a backlash." << std::endl;
+int main()
+{
+	const std::string exclam = "!";
+	const std::string message = "Hello" + ", world" + exclam;
 }

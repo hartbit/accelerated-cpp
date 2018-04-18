@@ -1,10 +1,9 @@
 # Accelerated C++
-## Answers to Chapter 1
+## Answers to Chapter 2
 
-0-1: It evaluates the sum of 3 and 4.
-0-4: Done in 0-0.
-0-5: It's not a valid program because the function body is missing.
-0-6: It's a valid program because it's valid to nest scopes.
-0-7: It's not a valid program because the first multiline comment closing delimiter will end the multiline string, and the rest of the text on that line is not valid C code.
-0-8: This is a valid program because the single-line comments comment everything (including multiline comment delimiters).
-0-9:
+1-1: The definitions are valid because `+` is left-binding and never tries to concatenate two string literals together.
+1-2: The definitions are not valid becaus `+` is left-binding and tries to concatenate two string literals together.
+1-3: The program is valid and prints two strings to standard output.
+1-4: The program is still valid, both times. In both cases, the nested scope simply shadows the s variable. Inserting a semicolon doesn't change that.
+1-5: The program is not valid because the outer scope tries to use the variable `x` from the inner scope.
+1-6: The program simply uses the compounded name.

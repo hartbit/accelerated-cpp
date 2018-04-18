@@ -1,5 +1,5 @@
 
-# Created by https://www.gitignore.io/api/c++
+# Created by https://www.gitignore.io/api/c++,visualstudiocode
 
 ### C++ ###
 # Prerequisites
@@ -35,5 +35,13 @@
 *.out
 *.app
 
+### VisualStudioCode ###
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+.history
 
-# End of https://www.gitignore.io/api/c++
+
+# End of https://www.gitignore.io/api/c++,visualstudiocode
